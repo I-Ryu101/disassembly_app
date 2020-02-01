@@ -11,7 +11,6 @@ def index():
 
 @app.route('/caluculation/', methods=['POST'])
 def api():
-    # jsからリクエストを受けてcalculationで計算する
     target_json = request.json
     respons_json = prime_factorization(int(target_json['target_number']))
     return jsonify(respons_json), 200    
