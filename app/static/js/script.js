@@ -43,7 +43,6 @@ $(function(){
                 dataType: 'json',
                 data: JSON.stringify(send_number_data),
                 success: function(response){
-                    alert("Success");
                     console.log(response);
                     create_new_element(response);
                 },
