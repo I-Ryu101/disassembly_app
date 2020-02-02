@@ -1,4 +1,4 @@
-import so
+import app.so
 def prime_factorization(target_num):
     respons_json = {}
     for prime in so.prime_list:
