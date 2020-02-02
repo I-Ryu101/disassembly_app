@@ -7,59 +7,6 @@ html {
     box-sizing: border-box;
 }
 
-body {
-    text-align: center;
-    font-size: 1.4rem;
-    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    margin: 30px 80px;
-}
-.main {
-    background-color: lightblue;
-    padding: 50px 30px 50px;
-}
-
-.description-section {
-    background-color: cornflowerblue;
-    padding: 50px 30px;
-}
-
-.section-title {
-    display: inline;
-}
-
-.send_number_input {
-    padding: 5px 15px;
-    font-size: 16px;
-    border-radius: 3px;
-    border: 2px solid #ddd;
-    box-sizing: border-box;
-    transition: .4s;
-}
-
-.send_number_input:hover {
-    border-color: #67c5ff;
-}
-
-.send_number_button {
-    display: inline-block;
-    padding: 0.3em 1em;
-    text-decoration: none;
-    color: #67c5ff;
-    border: solid 2px #67c5ff;
-    border-radius: 3px;
-    transition: .4s;
-    margin-bottom: 10px;
-}
-
-.send_number_button:hover {
-    background: #67c5ff;
-    color: white;
-}
-
-.text-input {
-    margin: 5px 0;
-}
-
 table{
     width: 50%;
     border-collapse: collapse;
