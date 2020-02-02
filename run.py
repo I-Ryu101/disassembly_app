@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 
-from caluculation import prime_factorization
+from app.caluculation import prime_factorization
 
 app = Flask(__name__, template_folder='./template')
 
