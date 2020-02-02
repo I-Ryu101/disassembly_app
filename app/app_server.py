@@ -13,7 +13,4 @@ def index():
 def api():
     target_json = request.json
     respons_json = prime_factorization(int(target_json['target_number']))
-    return jsonify(respons_json), 200    
-
-if __name__ == '__main__':
-    app.run(debug=False)
+    return jsonify(respons_json), 200
