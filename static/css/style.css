@@ -3,8 +3,59 @@
 html {
     font-size: 62.5%;
 }
-*,*::before,*::after{
+
+body {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    margin: 30px 80px;
+    background-color: #ddd;
+}
+
+
+
+.send_number_input {
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 2px solid #ddd;
     box-sizing: border-box;
+    transition: .4s;
+}
+
+.send_number_input:hover {
+    border-color: #67c5ff;
+
+}
+
+.a-query {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.a-query:hover {
+    color: #ff7043;
+}
+
+.send_number_button {
+    display: inline-block;
+    padding: 0.5em 1.3em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+    margin-bottom: 10px;
+}
+
+.send_number_button:hover {
+    background: #67c5ff;
+    color: white;
+}
+
+.text-input {
+    margin: 5px 0;
 }
 
 table{
@@ -19,7 +70,7 @@ table th,table td{
 }
 
 table th {
-    background-color: lightgrey;
+    background-color: lightblue;
 }
 
 table td {

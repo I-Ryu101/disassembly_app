@@ -22,7 +22,6 @@ function create_new_element(response) {
         tr.appendChild(td_num);
         table.appendChild(tr);
     }
-
 }
 
 $(function(){
@@ -32,7 +31,6 @@ $(function(){
                 alert("50万以内");
                 return;
             }
-            console.log($('#send_number_value').val());
             let send_number_data = {
                 'target_number': $('#send_number_value').val()
             }
@@ -53,5 +51,5 @@ $(function(){
         } else {
             alert("半角数字を入力してください");
         }
-    })
-})
+    });
+});
