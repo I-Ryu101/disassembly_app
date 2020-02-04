@@ -13,7 +13,6 @@ body {
 }
 
 
-
 .send_number_input {
     padding: 5px 15px;
     font-size: 16px;
@@ -38,32 +37,11 @@ body {
     color: #ff7043;
 }
 
-.send_number_button {
-    display: inline-block;
-    padding: 0.5em 1.3em;
-    text-decoration: none;
-    color: #67c5ff;
-    border: solid 2px #67c5ff;
-    border-radius: 3px;
-    transition: .4s;
-    margin-bottom: 10px;
-}
-
-.send_number_button:hover {
-    background: #67c5ff;
-    color: white;
-}
 
 .text-input {
     margin: 5px 0;
 }
 
-table{
-    width: 50%;
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-  
 table th,table td{
     padding: 10px 0;
     text-align: center;
@@ -75,4 +53,58 @@ table th {
 
 table td {
     background-color: white;
+}
+
+/* pc用 */
+@media (min-width: 768px) {
+
+    .send_number_button {
+        display: inline-block;
+        padding: 0.5em 1.3em;
+        text-decoration: none;
+        color: #67c5ff;
+        border: solid 2px #67c5ff;
+        border-radius: 3px;
+        transition: .4s;
+        margin-bottom: 10px;
+    }
+    
+    .send_number_button:hover {
+        background: #67c5ff;
+        color: white;
+    }
+    
+    table{
+        width: 50%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+}
+
+/* タブレット・スマホ */
+@media (max-width: 768px) {
+    
+    .send_number_button {
+        display: inline-block;
+        padding: 0.5em 1.3em;
+        text-decoration: none;
+        color: #67c5ff;
+        border: solid 2px #67c5ff;
+        border-radius: 3px;
+        transition: .4s;
+        margin-bottom: 10px;
+    }
+
+    .send_number_button:hover {
+        background: #67c5ff;
+        color: white;
+    }
+
+    table{
+        width: 80%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
 }
