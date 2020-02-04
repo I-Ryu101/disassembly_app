@@ -90,15 +90,12 @@ table td {
         padding: 0.5em 1.3em;
         text-decoration: none;
         color: #67c5ff;
+        font-weight: bolder;
         border: solid 2px #67c5ff;
         border-radius: 3px;
         transition: .4s;
         margin-bottom: 10px;
-    }
-
-    .send_number_button:hover {
-        background: #67c5ff;
-        color: white;
+        background-color: #fff;
     }
 
     table{
